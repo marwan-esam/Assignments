@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+void permute(string& str, int low, int high)
+{
+    // Base case
+    if (low == high)
+        cout<< str <<endl;
+    else
+    {
+
+        for (int i = low; i <= high; i++)
+        {
+            // swapping (permutation) done
+            swap(str[low], str[i]);
+
+            // recursive case
+            // fixing the character (low + 1)
+            permute(str, low+1, high);
+            // going back (backtracking) to the original string to move to the next permutation
+            swap(str[low], str[i]);
+        }
+    }
+}
+int main()
+{
+    string str = "ABC";
+    permute(str, 0, str.size()-1);
+    return 0;
+}
