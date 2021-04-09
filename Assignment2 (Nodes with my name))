@@ -1,0 +1,113 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Node{
+public:
+    char data;
+    Node* next;
+};
+int main(){
+    // declaration
+    Node* M1 = new Node();
+    Node* M2 = new Node();
+    Node* M3 = new Node();
+    Node* M4 = new Node();
+    Node* M5 = new Node();
+
+    Node* A1 = new Node();
+    Node* A2 = new Node();
+    Node* A3 = new Node();
+    Node* A4 = new Node();
+    Node* A5 = new Node();
+
+    Node* R1 = new Node();
+    Node* R2 = new Node();
+    Node* R3 = new Node();
+    Node* R4 = new Node();
+
+    Node* W1 = new Node();
+    Node* W2 = new Node();
+    Node* W3 = new Node();
+    Node* W4 = new Node();
+    Node* W5 = new Node();
+
+    Node* A6 = new Node();
+    Node* A7 = new Node();
+    Node* A8 = new Node();
+    Node* A9 = new Node();
+    Node* A10 = new Node();
+
+    Node* N1 = new Node();
+    Node* N2 = new Node();
+    Node* N3 = new Node();
+    Node* N4 = new Node();
+
+    // implementation
+
+    M1->data = 'M';
+    M1->next = M2;
+    M2->data = 'M';
+    M2->next = M3;
+    M3->data = 'M';
+    M3->next = M4;
+    M4->data = 'M';
+    M4->next = M5;
+    M5->data = 'M';
+    M5->next = nullptr;
+
+    // A cannot be fully implemented
+
+    A1->data = 'A';
+    A1->next = A2;
+    A2->data = 'A';
+    A2->next = A3;
+    A3->data = 'A';
+    A3->next = A4;
+    A4->data = 'A';
+    A4->next = A5;
+    A5->data = 'A';
+    A5->next = nullptr;
+
+    // R cannot be fully implemented
+
+    R1->data = 'R';
+    R1->next = R2;
+    R2->data = 'R';
+    R2->next = R3;
+    R3->data = 'R';
+    R3->next = R4;
+    R4->data = 'R';
+    R4->next = nullptr;
+
+    W1->data = 'W';
+    W1->next = W2;
+    W2->data = 'W';
+    W2->next = W3;
+    W3->data = 'W';
+    W3->next = W4;
+    W4->data = 'W';
+    W4->next = W5;
+    W5->data = 'W';
+    W5->next = nullptr;
+
+    // A cannot be fully implemented
+
+    A6->data = 'A';
+    A6->next = A7;
+    A7->data = 'A';
+    A7->next = A8;
+    A8->data = 'A';
+    A8->next = A9;
+    A9->data = 'A';
+    A9->next = A10;
+    A10->data = 'A';
+    A10->next = nullptr;
+
+    N1->data = 'N';
+    N1->next = N2;
+    N2->data = 'N';
+    N2->next = N3;
+    N3->data = 'N';
+    N3->next = N4;
+    N4->data = 'N';
+    N4->next = nullptr;
+}
